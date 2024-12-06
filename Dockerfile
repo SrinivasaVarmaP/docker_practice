@@ -2,10 +2,10 @@
 FROM php:8.1-apache
 
 # Set working directory
-WORKDIR /var/www/html
+WORKDIR C:\Users\psvar\Downloads\PSD\Online Car Rental
 
 # Copy all project files to the container
-COPY . .
+COPY index.php .
 
 # Enable necessary Apache modules
 RUN a2enmod rewrite
