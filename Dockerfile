@@ -2,7 +2,7 @@
 FROM php:8.1-apache
 
 # Set working directory
-WORKDIR C:\Users\psvar\Downloads\PSD\Online Car Rental
+WORKDIR /usr/src/app1
 
 # Copy all project files to the container
 COPY index.php .
